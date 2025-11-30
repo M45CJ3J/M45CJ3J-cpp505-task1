@@ -1,0 +1,94 @@
+Last login: Sun Nov 30 20:49:05 on ttys009
+/Users/abdallahibrahim/.zprofile:source:1: no such file or directory: /Users/abdallahibrahim/.profile
+/Users/abdallahibrahim/Downloads/cpp505-task1/cpp505-task1\ copy\ 2/bookapp ; exit;
+abdallahibrahim@AbdallahIbrahimMacBook ~ % /Users/abdallahibrahim/Downloads/cpp505-task1/cpp505-task1\ copy\ 2/bookapp ; exit;
+Initial book list:
+cs504 book | dr fatma ellithy | 1
+cs505 book | dr.haidy | 1
+cs506 book | dr.zainab | 1
+cs507 book | dr ashraf | 1
+
+Size: 4 (recursive: 4)
+Middle version: 1
+
+After some inserts:
+Intro book | dr starter | 0
+cs504 book | dr fatma ellithy | 1
+inserted before | dr b | 2
+experimental book | dr extra | 5
+cs505 book | dr.haidy | 1
+cs506 book | dr.zainab | 1
+cs507 book | dr ashraf | 1
+
+Found node with version 5, deleting it...
+
+After delete (version 5 removed):
+Intro book | dr starter | 0
+cs504 book | dr fatma ellithy | 1
+inserted before | dr b | 2
+cs505 book | dr.haidy | 1
+cs506 book | dr.zainab | 1
+cs507 book | dr ashraf | 1
+
+After deleteFirst & deleteEnd:
+cs504 book | dr fatma ellithy | 1
+inserted before | dr b | 2
+cs505 book | dr.haidy | 1
+cs506 book | dr.zainab | 1
+
+Before selectionSort:
+cs504 book | dr fatma ellithy | 1
+inserted before | dr b | 2
+cs505 book | dr.haidy | 1
+cs506 book | dr.zainab | 1
+book9 | a | 9
+book3 | b | 3
+book7 | c | 7
+
+After selectionSort (by version):
+cs504 book | dr fatma ellithy | 1
+cs505 book | dr.haidy | 1
+cs506 book | dr.zainab | 1
+inserted before | dr b | 2
+book3 | b | 3
+book7 | c | 7
+book9 | a | 9
+
+After reverse:
+book9 | a | 9
+book7 | c | 7
+book3 | b | 3
+inserted before | dr b | 2
+cs506 book | dr.zainab | 1
+cs505 book | dr.haidy | 1
+cs504 book | dr fatma ellithy | 1
+
+After insertionSort (by version):
+cs506 book | dr.zainab | 1
+cs505 book | dr.haidy | 1
+cs504 book | dr fatma ellithy | 1
+inserted before | dr b | 2
+book3 | b | 3
+book7 | c | 7
+book9 | a | 9
+
+Is sorted? yes
+
+Recursive display (version title author):
+1 cs506 book dr.zainab
+1 cs505 book dr.haidy
+1 cs504 book dr fatma ellithy
+2 inserted before dr b
+3 book3 b
+7 book7 c
+9 book9 a
+
+After makeListEmpty(): size=0
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
+
