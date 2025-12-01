@@ -5,7 +5,7 @@ int main()
 {
     List books;
 
-    // initial 4 books (as requested)
+    // initial 4 books
     books.insertEnd(1, "cs504 book", "dr fatma ellithy");
     books.insertEnd(1, "cs505 book", "dr.haidy");
     books.insertEnd(1, "cs506 book", "dr.zainab");
